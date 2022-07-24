@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom"
-import { AuthContextProvider } from "./components/AuthContext";
+import { AuthContextProvider } from "./context/AuthContext";
 import Navbar from "./components/Navbar";
 import ProtectedRoute from "./components/ProtectedRoute";
 import Account from "./pages/Account";
